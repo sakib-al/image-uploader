@@ -12,14 +12,16 @@ This is a small package for Image uploader. You can upload multiple image, singl
 ```
 
 
-## Add a class in your <div>
+## Add a class in your div
+You can add any preferable class name instead of "file". 
   
  ```bash
   <div class="file"></div>
  ```
  
  ## Uploader Options
-  
+ You can change default options according to your prefrence.
+ 
  ```bash
   <script>
       $('.file').imageUploader({
