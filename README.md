@@ -1,8 +1,9 @@
 # Description
 This is a small package for Image uploader. You can upload multiple image, single image or upload any files within it. Just link the css and js file in your Markup file.
 
-![Screenshot](https://raw.githubusercontent.com/sakib-al/image-uploader/main/assets/screenshot.png)
-
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sakib-al/image-uploader/main/assets/screenshot.png" alt="screenshot">
+</p>
 
 ## Installation Process
 
