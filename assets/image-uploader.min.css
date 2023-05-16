@@ -2,6 +2,8 @@
     Image Uploader - Sakib Al Islam
     Last Update  - 30 Oct 2022
 */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 .image-uploader {
     min-height: 10rem;
     border: 3px solid #ff8084;
