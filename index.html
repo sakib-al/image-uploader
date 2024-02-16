@@ -14,9 +14,18 @@
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
+                <label for="">Single</label>
                 <div class="card">
                     <div class="card-body">
-                        <div class="file"></div>
+                        <div class="single"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="">Multiple</label>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="multiple"></div>
                     </div>
                 </div>
             </div>
@@ -28,10 +37,15 @@
     <script src="assets/image-uploader.min.js"></script>
 
     <script>
-        $('.file').imageUploader({
+        $('.multiple').imageUploader({
             required: false,
             multiple:true,
-            imagesInputName: "test_file",
+            imagesInputName: "multiple",
+        });
+        $('.single').imageUploader({
+            required: false,
+            multiple:false,
+            imagesInputName: "single",
         });
     </script>
 </body>
